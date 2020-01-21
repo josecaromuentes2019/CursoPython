@@ -2,7 +2,7 @@ import sqlite3
 #import csv
 
 #f=open('C:/Users/JOSECARO/Desktop/PRODUCTOS.csv','r') 
-
+#recordar que este codigo se encuentre comemtado para evitar conflitos a la hora de ejecutarlo, debido a que si se descometa voveria a crear las tablas existentes, lo cual genera error
 #next(f, None)
 #reader = csv.reader(f, delimiter=';') 
 
