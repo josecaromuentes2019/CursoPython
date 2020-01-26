@@ -16,10 +16,10 @@ class Empleado:
         return '{} tiene un salario de {}'.format(self.nombre,self.salario)
 
 empleados = [
-    Empleado('juan',2000),
+    Empleado('Juan',2000),
     Empleado('Maria',3000),
     Empleado('Carlos',2500),
-    Empleado('Estjer',3500)
+    Empleado('Esther',3500)
 ]
 
 resultado = filter(lambda empleado : empleado.salario <= 2000,empleados)
