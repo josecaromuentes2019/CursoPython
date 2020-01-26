@@ -26,6 +26,7 @@ print('contatenamos con exted ',numeros[:])
 # parametro indica el segundo indice (no inclusibe)
 print(numeros[2:4])
 
+
 #si solo incluimos el primer indice impre desde ese indice (inclusibe) hasta el final
 print(numeros[2:])
 
